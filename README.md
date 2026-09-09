@@ -1,8 +1,8 @@
 # 200 Flashs Florais Fineline
 
-Landing page estática preparada para Cloudflare Pages.
+Landing page estática preparada para publicação gratuita no Cloudflare Pages.
 
-## Configuração do Cloudflare Pages
+## Cloudflare Pages
 
 - Build command: `npm run build`
 - Build output directory: `out`
