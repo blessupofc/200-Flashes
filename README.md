@@ -1,4 +1,4 @@
-# 200 Flashs Florais Fineline
+# 200 Flashes Florais Fineline
 
 Landing page estática preparada para publicação gratuita no Cloudflare Pages.
 
