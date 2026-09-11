@@ -1,4 +1,6 @@
 /* Keep content readable at small widths and images at their natural ratio. */
+body { font-family: var(--font-jost), sans-serif; }
+h1, h2, h3, .cta, .price b, .guarantee { font-family: var(--font-anton), sans-serif; }
 .picture img { max-width: 100%; }
 .cards > article, .uses > article, .audience > article { min-width: 0; }
 .cta { min-height: 52px; line-height: 1.35; text-wrap: balance; }
@@ -26,3 +28,4 @@ summary { min-height: 48px; }
   html { scroll-behavior: auto; }
   .cta, .cards article { transition: none; }
 }
+
