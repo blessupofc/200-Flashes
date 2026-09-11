@@ -10,7 +10,8 @@ function Button({ children }: { children: React.ReactNode }) {
 
 function Picture({ src, alt, size = "medium", eager = false }: { src: string; alt: string; size?: "small" | "medium" | "large" | "full"; eager?: boolean }) {
   const [width, height] = imageDimensions[src];
-  return <div className={`picture ${size}`}><img src={`/assets/${src}`} alt={alt} width={width} height={height} loading={eager ? "eager" : "lazy"} decoding="async" fetchPriority={eager ? "high" : "auto"} /></div>;
+  const responsive = `/assets/responsive/${src.replace('.webp', '-720.webp')}`;
+  return <div className={`picture ${size}`}><img src={`/assets/${src}`} srcSet={`${responsive} 720w, /assets/${src} ${width}w`} sizes="(max-width: 760px) calc(100vw - 32px), 620px" alt={alt} width={width} height={height} loading={eager ? "eager" : "lazy"} decoding="async" fetchPriority={eager ? "high" : "auto"} /></div>;
 }
 
 
@@ -86,3 +87,4 @@ export default function Home() {
     <section className="section final center"><div className="narrow"><Picture src="cta-final-v2.webp" alt="+200 flashes florais fineline por R$ 37,90"/><h2>Pare de começar do zero no próximo atendimento</h2><p className="sublead">Mais de 200 flashes florais fineline, acesso imediato, por R$ 37,90.</p><Button>Quero acessar os +200 flashes agora</Button><p className="secure">Compra segura via Kirvano</p></div></section><footer>© 2026 · Todos os direitos reservados</footer>
   </main>;
 }
+
