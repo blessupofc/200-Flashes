@@ -47,7 +47,7 @@ export default function Home() {
       <h1><span><em>+200</em> flashes Florais</span><strong>Fineline</strong></h1>
       <p className="lead white">Prontos para mostrar. A cliente escolhe. A sessão começa.</p>
       <p className="sublead">Um PDF com mais de 200 artes florais delicadas para apresentar às suas clientes, acelerar a decisão e parar de desenhar do zero em todo atendimento.</p>
-      <div className="price"><b>por <em>R$ 37,90</em></b><span>pagamento único</span></div>
+      <div className="price"><b>por <em>R$ 27,90</em></b><span>pagamento único</span></div>
       <Button>Quero acessar os +200 flashes agora</Button><p className="secure">Compra segura via Kirvano · Acesso liberado na hora</p>
     </div></header>
 
@@ -75,7 +75,7 @@ export default function Home() {
     <section className="section"><div className="narrow"><h2 className="center">Talvez você esteja pensando...</h2><div className="objections">{objections.map(([src,title,text]) => <article key={title}><Picture src={src} alt={title} size="small"/><h3>{title}</h3><p>{text}</p></article>)}</div><Button>Quero garantir meus +200 flashes</Button></div></section>
 
 
-    <section className="section offer center"><div className="narrow"><h2>Faça a conta</h2><Picture src="quanto-vale-30min-v2.webp" alt="Quanto vale 30 minutos do seu atendimento: acervo por R$ 37,90"/><p>Se o acervo economizar 30 minutos em um único atendimento, ele já se pagou. Em um mês, são horas devolvidas para tatuar mais, ou simplesmente para sair mais cedo do estúdio.</p><div className="price"><b>por <em>R$ 37,90</em></b><span>pagamento único</span></div><Button>Quero garantir meus +200 flashes</Button><p className="secure">Compra segura via Kirvano · Acesso imediato</p></div></section>
+    <section className="section offer center"><div className="narrow"><h2>Faça a conta</h2><Picture src="quanto-vale-30min-v2.webp" alt="Quanto vale 30 minutos do seu atendimento: acervo por R$ 27,90"/><p>Se o acervo economizar 30 minutos em um único atendimento, ele já se pagou. Em um mês, são horas devolvidas para tatuar mais, ou simplesmente para sair mais cedo do estúdio.</p><div className="price"><b>por <em>R$ 27,90</em></b><span>pagamento único</span></div><Button>Quero garantir meus +200 flashes</Button><p className="secure">Compra segura via Kirvano · Acesso imediato</p></div></section>
 
 
     <section className="section center"><div className="narrow"><div className="guarantee"><strong>7</strong><span>dias</span></div><h2>Risco zero para você</h2><p>Você tem 7 dias para abrir o material, usar nos atendimentos e decidir. Se não fizer sentido para o seu estúdio, pede o reembolso direto pela Kirvano e recebe tudo de volta.</p><Button>Quero testar sem risco</Button></div></section>
@@ -84,7 +84,6 @@ export default function Home() {
     <section className="section alt"><div className="narrow"><h2 className="center">Ainda tem dúvidas?</h2><details><summary>Como recebo o material?</summary><p>Por e-mail, logo após a confirmação do pagamento, com acesso pela área de membros da Kirvano.</p></details><details><summary>Funciona no celular?</summary><p>Sim. É um PDF comum, abre em qualquer aparelho.</p></details><details><summary>Posso usar em quantas clientes quiser?</summary><p>Sim, o acervo é seu para usar nos atendimentos do seu estúdio.</p></details><details><summary>O pagamento é seguro?</summary><p>Sim, todo o processo é feito pela Kirvano, com os meios de pagamento disponíveis no checkout.</p></details></div></section>
 
 
-    <section className="section final center"><div className="narrow"><Picture src="cta-final-v2.webp" alt="+200 flashes florais fineline por R$ 37,90"/><h2>Pare de começar do zero no próximo atendimento</h2><p className="sublead">Mais de 200 flashes florais fineline, acesso imediato, por R$ 37,90.</p><Button>Quero acessar os +200 flashes agora</Button><p className="secure">Compra segura via Kirvano</p></div></section><footer>© 2026 · Todos os direitos reservados</footer>
+    <section className="section final center"><div className="narrow"><Picture src="cta-final-v2.webp" alt="+200 flashes florais fineline por R$ 27,90"/><h2>Pare de começar do zero no próximo atendimento</h2><p className="sublead">Mais de 200 flashes florais fineline, acesso imediato, por R$ 27,90.</p><Button>Quero acessar os +200 flashes agora</Button><p className="secure">Compra segura via Kirvano</p></div></section><footer>© 2026 · Todos os direitos reservados</footer>
   </main>;
 }
-

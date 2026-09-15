@@ -7,8 +7,8 @@ const anton = Anton({ weight: '400', subsets: ['latin'], variable: '--font-anton
 const jost = Jost({ subsets: ['latin'], variable: '--font-jost', display: 'swap' });
 export const metadata: Metadata = {
   metadataBase: new URL('https://200-flashes.pages.dev'),
-  title: '+200 Flashes Florais Fineline — R$ 37,90',
-  description: 'Mais de 200 flashes florais fineline em PDF para tatuadores. Acesso imediato por R$ 37,90.',
+  title: '+200 Flashes Florais Fineline — R$ 27,90',
+  description: 'Mais de 200 flashes florais fineline em PDF para tatuadores. Acesso imediato por R$ 27,90.',
   openGraph: { title: '+200 Flashes Florais Fineline', description: 'Acervo pronto para tatuadores.', images: ['/og.jpg'] },
   twitter: { card: 'summary_large_image', title: '+200 Flashes Florais Fineline', description: 'Acervo pronto para tatuadores.', images: ['/og.jpg'] },
 };
@@ -23,4 +23,3 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <script id="microsoft-clarity-bootstrap" dangerouslySetInnerHTML={{ __html: '(function(){function loadClarity(){var t=document.createElement("script");t.async=true;t.src="https://www.clarity.ms/tag/yggu5wubv7";document.head.appendChild(t);}window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments);};function schedule(){if(window.requestIdleCallback){window.requestIdleCallback(loadClarity,{timeout:2000});}else{setTimeout(loadClarity,0);}}if(document.readyState==="complete"){schedule();}else{window.addEventListener("load",schedule,{once:true});}})();' }} />
   </body></html>;
 }
-
